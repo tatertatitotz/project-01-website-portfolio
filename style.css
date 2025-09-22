@@ -2,11 +2,11 @@
    LIGHT THEME — EDIT THESE 5
    ============================= */
 :root {
-  --bg: #EFDDFD;
+  --bg: #26145b;
   /* page background */
-  --text: #210934;
+  --text: #4ad5ea;
   /* main text */
-  --surface: #F6EAFF;
+  --surface: #0c0710;
   /* cards, boxes, list items */
   --nav: #36065B;
   /* navbar (dark bar) */
@@ -25,7 +25,7 @@
   /* text on dark navbar */
   --border: #E6D6FF;
   /* soft borders */
-  --hero: #F1E8FF;
+  --hero: #0c0710;
   /* jumbotron/hero bg */
 }
 
