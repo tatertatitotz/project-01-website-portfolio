@@ -4,15 +4,15 @@
 :root {
   --bg: #f0edfa;
   /* page background */
-  --text: #f0f7b3;
+  --text: #53404d;
   /* main text */
-  --surface: #3a317e;
+  --surface: #eec8a3;
   /* cards, boxes, list items */
   --nav: #26145b;
   /* navbar (dark bar) */
-  --accent: #edc03a;
+  --accent: #460277;
   /* links & primary buttons */
-    --hero: #311f69;
+    --hero: #f6a1da;
   /* jumbotron/hero bg */
 }
 
