@@ -25,7 +25,7 @@
   --accent-hover: color-mix(in srgb, var(--accent) 85%, black);
   --on-nav: #FFFFFF;
   /* text on dark navbar */
-  --border: #E6D6FF;
+  --border: #fff1e8;
   /* soft borders */
 }
 
