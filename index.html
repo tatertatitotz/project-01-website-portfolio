@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Template</title>
+    <title>Tat's Website</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -35,20 +35,19 @@
                 at
                 <a href="https://www.msudenver.edu/" target="_blank">Metropolitan State University of Denver!</a>
             </p>
-            <a class="btn btn-primary d-flex flex-nowrap justify-content-center" href="about.html">More About Me</a>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col text-center">
+                    <a class="btn btn-primary" href="about.html">More About Me</a>
+                </div>
+                <div class="col"></div>
+            </div>
         </section>
 
-        <!-- Box -->
-        <div class="box mb-4">
-            <h3 class="h5">Plain Box</h3>
-            <p class="mb-0">
-                This is a plain div styled as a surface. <a href="#">Read more</a>
-            </p>
-        </div>
-
         <!-- List group -->
-
-        <ul class="list-group" style="max-width: 28rem" style="color:white">
+<div class="row">
+    <div class="col ">
+        <ul class="list-group" style="max-height: 12rem;">
             <h2 class="p-3">Languages</h2>
             <li class="list-group-item">
                 <ul class="py-2">
@@ -57,10 +56,14 @@
                     <li>Japanese</li>
                 </ul>
             </li>
+        </ul>
+    </div>
+    <div class="col  pb-4">
+        <ul class="list-group" style="max-height: 24rem;">
             <h2 class="p-3">Programs I Can Use</h2>
             <li class="list-group-item">
                 <ul class="py-2">
-                    <li>MediBang Paint Pro</li>        
+                    <li>MediBang Paint Pro</li>
                     <li>Visual Studio Code</li>
                     <li>Visual Studio</li>
                     <li>GitHub Desktop</li>
@@ -69,6 +72,10 @@
                     <li>Discord</li>
                 </ul>
             </li>
+        </ul>
+    </div>
+    <div class="col">
+        <ul class="list-group" style="max-height: 12rem;">
             <h2 class="p-3">Soft Skills</h2>
             <li class="list-group-item">
                 <ul class="py-2">
@@ -78,6 +85,9 @@
                 </ul>
             </li>
         </ul>
+    </div>
+</div>
+
     </main>
 
     <script>
